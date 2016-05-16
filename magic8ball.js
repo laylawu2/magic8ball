@@ -1,4 +1,4 @@
-function answer() {var number = Math.floor(Math.random()*8);
+function answer() {var number = Math.floor(Math.random()*20);
 
 if (number===3) {document.getElementById("answer_field").innerHTML = "Yes, definitely";}
 if (number===4) {document.getElementById("answer_field").innerHTML = "You may rely on it";}
