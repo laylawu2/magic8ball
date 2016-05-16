@@ -1,5 +1,8 @@
 function answer() {var number = Math.floor(Math.random()*20);
 
+if (number===0){document.getElementById("answer_field").innerHTML = "It is certain";}
+if (number===1){document.getElementById("answer_field").innerHTML = "It is decidedly so";}
+if (number===2) {document.getElementById("answer_field").innerHTML = "Without a doubt";}
 if (number===3) {document.getElementById("answer_field").innerHTML = "Yes, definitely";}
 if (number===4) {document.getElementById("answer_field").innerHTML = "You may rely on it";}
 if (number===5) {document.getElementById("answer_field").innerHTML = "As I see it, yes";}
